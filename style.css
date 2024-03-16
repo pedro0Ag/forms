@@ -1,53 +1,54 @@
-*{
+* {
     box-sizing: border-box;
-}
-#google-form {
+  }
+  
+  #google-form {
     background-color: #333;
     padding: 20px;
-}
-
-#google-form form {
+  }
+  
+  #google-form form {
     background-color: #fff;
     width: 400px;
     padding: 20px;
     margin: auto;
-}
-
-#google-form input {
+  }
+  
+  #google-form input {
     display: block;
     font-size: 18px;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
     width: 100%;
-}
-
-#google-form button {
+  }
+  
+  #google-form button {
     border: none;
     background-color: #eee;
     font-weight: bold;
-    padding: 10px, 0;
+    padding: 10px 0;
     width: 100%;
     cursor: pointer;
-}
+  }
+  
+  /* REGISTER FORM */
 
-/* REGISTER FORM */
-
-.register-form {
+  .register-form {
     padding: 50PX;
   }
   
-.register-form form {
+  .register-form form {
     width: 500px;
     margin: auto;
     border: 1px solid #000;
-}
+  }
 
-.register-form label {
+  .register-form label {
     display: block;
-}
-
-.input-inline {
+  }
+  
+  .input-inline {
     display: flex;
   }
   
@@ -55,6 +56,17 @@
     display: none;
   }
   
+  .input-inline label {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    margin: 5px;
+  }
+  
+  .input-inline input:checked + label {
+    background-color: red;
+  }
   .input-inline label {
     display: block;
     padding: 10px;
